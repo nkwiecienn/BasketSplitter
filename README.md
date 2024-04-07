@@ -13,18 +13,19 @@ basket into delivery groups to minimize the number of deliveries required.
 The Input consists of: 
 - Json file (config.json) with the supermarket configuration
 which is represented by a map - the keys being the products offered by the market
-and the value a list with possible delivery methods for this product.
+and the corresponding values a list with possible delivery methods for this product.
   The absolute path to the configuration file is needed when initializing the BasketSplitter class.
-- List of products in customers basket to calculate the delivery groups 
-(passed in the split method of BastetSplitter class).
+- List of products in a customers basket used to calculate the delivery groups 
+(passed in the split() method of BastetSplitter class).
 
 
 
 <h3>Output</h3>
 
-The output is a map with its keys being the minimal list of delivery
-methods and their values the products that are meant to be delivered with
-this method so that it maximizes the number of products taken using one method.
+The output is a map where the keys represent the minimal set of delivery 
+methods, and the associated values are the products designated for 
+delivery by each method. This arrangement is optimized to maximize 
+the quantity of products delivered using a single method.
 
 <h3>Constraints</h3>
 
@@ -41,7 +42,7 @@ A customer's cart contains a maximum of 100 products
 Responsible for splitting the customers basket into groups.
 The algorithm is as it follows:
 - First it reverses the configuration map so that the keys represent
-means of transport and its keys the products the supermarket can deliver with them.
+delivery methods and its values the products the supermarket can deliver with them.
 - Then it loops over the map to find the transport that can deliver the largest amount of
 products and removes those products from the entire map so that in the
 next iteration they are not taken into account.
@@ -56,7 +57,7 @@ those items from the map as described before.
 <h4>3. ReadJson.java </h4>
 
 Handles the input for reading the configuration and baskets Json files
-(the second one used only for testing).
+(the second one used just for testing).
 
 <h3>Testing</h3>
 

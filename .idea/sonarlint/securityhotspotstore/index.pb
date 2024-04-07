@@ -1,14 +1,10 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-Q
-!src/main/java/BasketSplitter.java,c\2\c2dbca6e2366f8979eec8777cf38bbf630484688
 b
 2src/main/java/com/ocado/basket/BasketSplitter.java,9\3\936706ef614de0def63e61a68dd6af4647c9f67a
 \
 ,src/main/java/com/ocado/basket/ReadJson.java,8\f\8fc7adb09c517f17ec249a82b44795c25f921a83
-X
-(src/main/java/com/ocado/basket/Main.java,f\3\f3435a10b3c97d40a468678d267b2dbe7c450e97
 `
 0src/test/java/com/ocado/basket/ReadJsonTest.java,d\4\d4df782b4e528ba1e910229fdc5d0bc177cde7b6
 a
@@ -19,3 +15,5 @@ f
 6src/test/java/com/ocado/basket/BasketSplitterTest.java,3\e\3e14df3aef40a8dbd6b8ee4b9dfeb9a695e8fd12
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+P
+ Natalia_Kwiecien_Java_Krakow.iml,d\0\d0c674b60f6df20b1add865bd3b934513e36eff8
